@@ -1,10 +1,9 @@
 GIT
   remote: git://github.com/csquared/queue_classic.git
-  revision: 9b673074a9cc876cd59cd838219269b9eda5e483
-  branch: newline_serialization
+  revision: 605717c8684a2311d1b5fcea8e9ae26b3ad6226f
+  branch: release_head
   specs:
     queue_classic (1.0.0)
-      json (~> 1.6.1)
       pg (~> 0.11.0)
 
 GEM
