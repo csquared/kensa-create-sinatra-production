@@ -1,0 +1,266 @@
+html a, body a {
+  color: #8d79f2;
+  text-decoration: none;
+}
+html a:hover, body a:hover {
+  text-decoration: underline;
+}
+
+body.addon-config {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: arial, helvetica, sans-serif;
+  vertical-align: baseline;
+  background-color: #191A20;
+  color: #82859E;
+  padding-bottom: 50px;
+  min-width: 1000px;
+}
+
+body.addon-config #content {
+  width: 630px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+html h2, body h2 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+html h3, html h4, body h3, body h4 {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+
+#content .panel {
+  margin-bottom: 20px;
+  background-color: #22232c;
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-box-shadow: 2px 2px 7px #151515;
+  -webkit-box-shadow: 2px 2px 7px #151515;
+}
+#content .panel .panel-body {
+  padding: 20px;
+  padding-top: 0;
+}
+#content .panel .help {
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+#content .panel h2 {
+  color: #8d79f2;
+  background-color: #1f2028;
+  padding: 10px 10px 10px 20px;
+  margin: 0;
+  font-weight: normal;
+  font-family: "Hybrea", sans-serif;
+  letter-spacing: 1px;
+  -moz-border-radius-topright: 14px;
+  -webkit-border-top-right-radius: 14px;
+  -moz-border-radius-topleft: 14px;
+  -webkit-border-top-left-radius: 14px;
+}
+#content .panel .intro {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+#content .panel .intro h4 {
+  font-weight: normal;
+  color: white;
+}
+#content .panel .intro p a {
+  color: #7f95ff;
+}
+#content .panel .part {
+  overflow: hidden;
+  display: inline-block;
+  border-top-width: 4px;
+  border-top-color: #1f2028;
+  border-top-style: solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#content .panel .part {
+  display: block;
+}
+#content .panel .part:first-child {
+  padding-top: 0;
+  border-top-style: none;
+}
+#content .panel .part:last-child {
+  padding-bottom: 0;
+}
+#content .panel .part h3 {
+  color: white;
+  font-weight: normal;
+  width: 160px;
+  float: left;
+}
+#content .panel .part p, #content .panel .part ul {
+  margin-left: 180px;
+}
+#content .panel .part p.help {
+  float: left;
+  padding-top: 0;
+}
+#content .panel #redeemed {
+  color: #bff740;
+}
+#content .panel .change-password input.submit {
+  margin-left: 165px;
+}
+#content .panel .app-rename input.submit {
+  margin-left: 10px;
+}
+#content .panel-small {
+  width: 400px;
+  margin: 0 auto;
+}
+#content .panel-mid {
+  width: 500px;
+  margin: 0 auto;
+}
+#content #notfound h2 {
+  color: #a11c39;
+}
+
+.addon-config #content .panel .panel-header {
+  padding-top: 20px;
+  position: relative;
+}
+.addon-config #content .panel .panel-header .addonlabel {
+  padding-bottom: 30px;
+  background-image: url(/addon-dialog-separator.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+}
+.addon-config #content .panel .panel-header .addonlabel .overview {
+  background-position: left center;
+  background-repeat: no-repeat;
+  height: 70px;
+  text-align: center;
+  display: inline-block;
+}
+.addon-config #content .panel .panel-header .addonlabel .overview h2, .addon-config #content .panel .panel-header .addonlabel .overview h3 {
+  font-weight: normal;
+  font-family: "Corbel Bold", arial, sans-serif;
+  text-align: left;
+  display: block;
+  padding-left: 82px;
+}
+.addon-config #content .panel .panel-header .addonlabel .overview h2 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.addon-config #content .panel .panel-header .addonlabel .overview.single h2 {
+  padding-top: 25px;
+}
+.addon-config #content .panel .panel-header .addonlabel {
+  padding-bottom: 0px;
+  background-image: none;
+}
+.addon-config #content .panel .panel-header .addonlabel h2 {
+  background-color: transparent;
+}
+.addon-config #content .panel .panel-header .addonlabel h2, .addon-config #content .panel .panel-header .addonlabel h3 {
+  color: #dddddd;
+}
+.addon-config #content .panel .panel-header .addonlabel .addon-help {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: right;
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  white-space: nowrap;
+}
+.addon-config #content .panel .panel-header .addonlabel .addon-help a {
+  display: block;
+  overflow: hidden;
+  padding: 50px 0 0 0;
+  background-image: url(/help.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.addon-config #content .panel .panel-body div.help, .addon-config #content .panel .panel-body div.body {
+  padding: 20px;
+  background-image: url(/addon-dialog-separator.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  clear: both;
+  float: none;
+}
+.addon-config #content .panel .panel-body div.help {
+  text-align: center;
+}
+.addon-config #content .panel .panel-body div.help a {
+  background-image: url(/images/addons/addon-configure-arrow.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: 10px;
+  padding-right: 25px;
+}
+.addon-config #content .panel .panel-body div.help a:hover {
+  color: #a69ded;
+  background-position: right -15px;
+}
+.addon-config #content .panel .panel-body form {
+  border-top: none !important;
+}
+.addon-config #content .panel .panel-body form #domain_name p.domain {
+  padding-bottom: 10px;
+  margin-right: 0;
+}
+.addon-config #content .panel .panel-body form #domain_name p.domain span.email, .addon-config #content .panel .panel-body form #domain_name p.domain a.url {
+  display: inline-block;
+  width: 226px;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+.addon-config #content .panel .panel-body form #domain_name input.add {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.addon-config #content .panel .panel-body fieldset p.help {
+  padding: 0 20px 20px 20px;
+  background-image: none;
+}
+.addon-config #content .panel .panel-body fieldset .field .text {
+  width: 210px;
+}
+.addon-config #content .panel .panel-body fieldset .field textarea {
+  min-width: 210px;
+}
+.addon-config #content .panel .panel-body fieldset.submit {
+  border-top-width: 4px;
+  border-top-color: #1f2028;
+  border-top-style: solid;
+  padding: 20px;
+}
+.addon-config #content .panel .panel-body fieldset.submit .remove-addon {
+  float: left;
+}
+.addon-config #content .panel .panel-body fieldset.submit .submit {
+  float: right;
+}
+
+.status {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}

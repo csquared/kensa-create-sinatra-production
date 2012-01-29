@@ -1,0 +1,4 @@
+addon-manifest.json
+.env
+db/*.sqlite
+*.sh

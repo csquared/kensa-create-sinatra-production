@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title Heroku Deploy Hooks
+    %link{ href: '/reset.css', rel: 'stylesheet', type: 'text/css' }
+    %link{ href: '/main.css', rel: 'stylesheet', type: 'text/css' }
+    %link{ href: '/addons.css', rel: 'stylesheet', type: 'text/css' }
+
+      
+  %body.addon-config
+    != Heroku::Nav::Provider.html
+
+    %div{ id: "content" }
+      %div{ class: "panel" }
+        = yield

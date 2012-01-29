@@ -1,0 +1,18 @@
+%div.panel-header
+  %div.addonlabel
+    %div.addon-help
+      %a{ href: "http://devcenter.heroku.com/"} Heroku Documentation
+    %div.overview.group{style: 'background-image: url(/icon.png)' }
+      %h2.name The Addon
+      %h3.name #{@resource.plan}
+%div.panel-body
+  %div.panel-body
+    %form{action: "/heroku/resources/#{@resource.id}/update", method: 'post'}
+      %fieldset
+      %fieldset
+        %h3 Configuration
+        %div.field
+          %input{type: 'text', id: 'key', name: 'key', size: 30}
+      %fieldset.submit
+        %input.submit{type: 'submit', value: "Save"} 
+
