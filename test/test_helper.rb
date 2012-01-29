@@ -1,4 +1,4 @@
-ENV['DATABASE_URL']    = 'postgres://localhost/deploy-hooks-test'
+ENV['DATABASE_URL']    = 'postgres://localhost/myaddon-test'
 ENV['HEROKU_USERNAME'] = 'addon'
 ENV['HEROKU_PASSWORD'] = 'pw'
 ENV['RACK_ENV']        = 'test'
