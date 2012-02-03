@@ -8,15 +8,10 @@ class RackTestCase < Test::Unit::TestCase
 
   def teardown
     WebMock.reset!
-    Mail::TestMailer.deliveries.clear
   end
   
   def run(*args, &block)
     Sequel::Model.db.transaction(:rollback=>:always){super}
-  end
-
-  def last_mail
-    Mail::TestMailer.deliveries.last
   end
 
   def assert_json

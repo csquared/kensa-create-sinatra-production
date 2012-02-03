@@ -7,15 +7,6 @@ gem "heroku-nav", "~> 0.1.24", :require => 'heroku/nav'
 gem 'thin'
 gem 'sequel'
 gem 'pg'
-gem 'rest-client'
-gem 'tinder'
-gem 'mail'
-gem 'hpricot'
-gem 'builder'
-gem 'roxml'
-gem 'queue_classic',
-  :git => 'git://github.com/csquared/queue_classic.git',
-  :branch => 'release_head'
 
 group 'test' do
   gem 'webmock', :require => 'webmock/test_unit'

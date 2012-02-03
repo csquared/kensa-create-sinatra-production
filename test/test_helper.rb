@@ -16,12 +16,3 @@ APP_ROOT = File.expand_path('../..', __FILE__) + '/'
 Fabrication.configure do |config|
   fabricator_dir = APP_ROOT + "test/fabricators"
 end
-
-Mail.defaults do
-  delivery_method :test # in practice you'd do this in spec_helper.rb
-end
-
-# run synchronously
-def QC.enqueue(function_call, *args)
-  eval("#{function_call} *args")
-end
